@@ -1,0 +1,13 @@
+.components {
+    &__header {
+        &-left {
+            &-icon {
+                &:hover {
+                    background-color: #f1f4f5;
+                }
+            }
+        }
+        &-right {
+        }
+    }
+}
