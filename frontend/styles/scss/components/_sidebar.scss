@@ -1,0 +1,20 @@
+.components {
+    &__sidebar {
+        &-menu {
+            &-item {
+                cursor: pointer;
+                &.active {
+                    background-color: #3d3e3f;
+                }
+                &-text {
+                    width: 100%;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 10px;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
